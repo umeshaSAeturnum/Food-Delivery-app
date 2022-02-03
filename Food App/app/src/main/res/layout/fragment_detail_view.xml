@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".ui.fragments.DetailViewFragment"
+android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardElevation="@dimen/cardview_elevation"
+    android:layout_margin="@dimen/cardview_margin"
+    app:cardCornerRadius="@dimen/cardview_corner_radius">
+
+    <ImageView
+        android:id="@+id/imageview_detail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageview_detail_height"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/pizza"/>
+
+</androidx.cardview.widget.CardView>
+
+<TextView
+    android:id="@+id/tvFoodName_d"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-black"
+    android:textStyle="bold"
+    android:text="Devilled Chicken Pizza"
+    android:textColor="@color/black"
+    android:textSize="@dimen/title_txt_size_detail"
+    android:justificationMode="inter_word"
+    android:layout_marginLeft="@dimen/txt_margin"
+    android:layout_marginRight="@dimen/txt_margin"
+    android:paddingBottom="@dimen/title_padding"
+    android:layout_marginTop="@dimen/title_margin"/>
+
+
+    <TextView
+        android:id="@+id/content_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/txt_margin"
+        android:layout_marginTop="@dimen/content_detail_margin_top"
+        android:layout_marginRight="@dimen/txt_margin"
+        android:fontFamily="sans-serif-medium"
+        android:justificationMode="inter_word"
+        android:paddingBottom="@dimen/title_padding"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="@dimen/description_font_size"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_fd"
+            android:textSize="18dp"
+            android:layout_marginStart="18dp"/>
+        <TextView
+            android:id="@+id/price_fd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 1800"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/yellow_200"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="85dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_minus_dtl"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:text="@string/minus"
+            android:layout_marginVertical="0dp"
+            android:textSize="20dp"
+            android:backgroundTint="@color/yellow_200"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quantity_dtl"
+            android:layout_width="75dp"
+            android:layout_marginVertical="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/ash"
+            android:layout_marginRight="10dp"
+            android:text="@string/zero"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_plus_dtl"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:text="@string/plus"
+            android:backgroundTint="@color/yellow_200"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btn_addToCart_dtl"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:textColor="@color/white"-->
+<!--       android:background="@drawable/button_style"-->
+<!--        android:layout_marginLeft="@dimen/txt_margin"-->
+<!--        android:layout_marginRight="@dimen/txt_margin"-->
+<!--        android:layout_marginTop="@dimen/content_detail_margin_top"-->
+<!--        android:backgroundTint="@color/yellow_200"-->
+<!--        android:text="@string/addCart" android:layout_height="50dp"/>-->
+
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.LoginFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="186dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:src="@drawable/restaurant_log"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/log_msg"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etName_s"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edit_text"
+        android:elevation="8dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etpassword_l"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edit_text"
+        android:elevation="8dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName_s" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/yellow_200"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpassword_l" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="@string/noAcc"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnSignup_l"
+        app:layout_constraintEnd_toStartOf="@+id/btnSignup_l"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSignup_l"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/Transparent"
+        android:paddingLeft="2dp"
+        android:text="@string/signup"
+        android:textAlignment="viewStart"
+        android:textColor="@color/yellow_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.11" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

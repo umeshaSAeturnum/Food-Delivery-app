@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="80dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/cardview_elevation"
+    android:layout_margin="@dimen/cardview_margin_fl"
+    app:cardCornerRadius="@dimen/cardview_corner_radius">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_order"
+        android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/author_margin_left"
+                    android:layout_marginTop="@dimen/price_margin_top_cv"
+                    android:fontFamily="sans-serif-medium"
+                    android:singleLine="true"
+                    android:text="@string/orderId"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/orderId_font_orl" />
+
+                <TextView
+                    android:id="@+id/id_orl"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="@dimen/price_margin_top_cv"
+                    android:layout_marginRight="@dimen/margin_right_item_cv"
+                    android:fontFamily="sans-serif-medium"
+
+                    android:singleLine="true"
+                    android:text="123456789"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/orderId_font_orl"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/author_margin_left"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/margin_right_item_cv"
+                    android:fontFamily="sans-serif-medium"
+                    android:singleLine="true"
+                    android:text="@string/total_orl"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/orderId_font_orl" />
+
+                <TextView
+                    android:id="@+id/price_orl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/author_margin_left"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:singleLine="true"
+                    android:text="Rs 1900"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/orderId_font_orl"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey"
+                    android:layout_marginLeft="@dimen/author_margin_left"
+                    android:layout_marginRight="@dimen/margin_right_item_cv"
+                    android:fontFamily="sans-serif-medium"
+                    android:singleLine="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/status_orl"
+                    android:textSize="@dimen/orderId_font_orl" />
+                <TextView
+                    android:id="@+id/status_orl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/author_margin_left"
+                    android:textColor="@color/grey"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:singleLine="true"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center"
+                    android:text="Dispatched"
+                    android:textSize="@dimen/orderId_font_orl"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+

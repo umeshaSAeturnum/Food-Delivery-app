@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/category">
+
+    <fragment
+        android:id="@+id/category"
+        android:name="com.example.foodapp.ui.fragments.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_category_to_listFood"
+            app:destination="@id/listFood" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFood"
+        android:name="com.example.foodapp.ui.fragments.ListFoodFragment"
+        android:label="fragment_list_food"
+        tools:layout="@layout/fragment_list_food" >
+        <action
+            android:id="@+id/action_listFood_to_detailView"
+            app:destination="@id/detailView" />
+        <argument
+            android:name="category"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.foodapp.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/shoppingCart"
+        android:name="com.example.foodapp.ui.fragments.ShoppingCartFragment"
+        android:label="fragment_shopping_cart"
+        tools:layout="@layout/fragment_shopping_cart" >
+        <action
+            android:id="@+id/action_shoppingCart_to_orderFragment"
+            app:destination="@id/orderFragment" />
+        <action
+            android:id="@+id/action_shoppingCart_to_category"
+            app:destination="@id/category" />
+        <action
+            android:id="@+id/action_shoppingCart_to_emptyCartFragment"
+            app:destination="@id/emptyCartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailView"
+        android:name="com.example.foodapp.ui.fragments.DetailViewFragment"
+        android:label="fragment_detail_view"
+        tools:layout="@layout/fragment_detail_view" >
+        <argument
+            android:name="food"
+            app:argType="com.example.foodapp.db.models.Food" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="com.example.foodapp.ui.fragments.OrderFragment"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" >
+        <argument
+            android:name="checkList"
+            app:argType="com.example.foodapp.db.relations.CheckItems" />
+        <action
+            android:id="@+id/action_orderFragment_to_myOrderFragment"
+            app:destination="@id/myOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myOrderFragment"
+        android:name="com.example.foodapp.ui.fragments.MyOrdersFragment"
+        android:label="fragment_my_order"
+        tools:layout="@layout/fragment_my_order" >
+        <action
+            android:id="@+id/action_myOrderFragment_to_viewMyOrderFragment"
+            app:destination="@id/viewMyOrderFragment" />
+        <action
+            android:id="@+id/action_myOrderFragment_to_emptyOrderFragment"
+            app:destination="@id/emptyOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewMyOrderFragment"
+        android:name="com.example.foodapp.ui.fragments.ViewMyOrderFragment"
+        android:label="fragment_view_my_order"
+        tools:layout="@layout/fragment_view_my_order" >
+        <argument
+            android:name="order"
+            app:argType="com.example.foodapp.db.models.Order" />
+        <argument
+            android:name="user"
+            app:argType="com.example.foodapp.db.models.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/emptyCartFragment"
+        android:name="com.example.foodapp.ui.fragments.EmptyCartFragment"
+        android:label="fragment_empty_order"
+        tools:layout="@layout/fragment_empty_order" />
+    <fragment
+        android:id="@+id/emptyOrderFragment"
+        android:name="com.example.foodapp.ui.fragments.EmptyOrderFragment"
+        android:label="fragment_empty_order"
+        tools:layout="@layout/fragment_empty_order" />
+</navigation>

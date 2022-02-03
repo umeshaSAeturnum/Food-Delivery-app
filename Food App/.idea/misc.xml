@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project/Food App/app/src/main/res/drawable-v24/bottom_nav.xml" value="0.1" />
+        <entry key="..\:/project/Food App/app/src/main/res/drawable-v24/bottom_nav_selector.xml" value="0.1" />
+        <entry key="..\:/project/Food App/app/src/main/res/drawable-v24/button_style.xml" value="0.1" />
+        <entry key="..\:/project/Food App/app/src/main/res/drawable-v24/edit_text.xml" value="0.1" />
+        <entry key="..\:/project/Food App/app/src/main/res/drawable/badge_shape.xml" value="0.18177083333333333" />
+        <entry key="..\:/project/Food App/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.18177083333333333" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/action_notification_icon.xml" value="0.33" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/activity_main.xml" value="0.24592391304347827" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/cart_item.xml" value="0.5" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/food_item.xml" value="0.25" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_category.xml" value="0.5" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_detail_view.xml" value="0.24592391304347827" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_empty_cart.xml" value="0.24094202898550723" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_empty_order.xml" value="0.24094202898550723" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_list_food.xml" value="0.24592391304347827" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_my_order.xml" value="0.24139492753623187" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_order.xml" value="0.24139492753623187" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_profile.xml" value="0.24592391304347827" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_register.xml" value="0.24592391304347827" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_shopping_cart.xml" value="0.25" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/fragment_view_my_order.xml" value="0.24139492753623187" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/orderDetail_item.xml" value="0.2368659420289855" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/order_item.xml" value="0.5" />
+        <entry key="..\:/project/Food App/app/src/main/res/layout/orderdetail_item.xml" value="0.2125" />
+        <entry key="..\:/project/Food App/app/src/main/res/menu/app_bar_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/project/Food App/app/src/main/res/menu/bottom_nav_menu.xml" value="0.26875" />
+        <entry key="..\:/project/Food app hilt/Food App/app/src/main/res/layout/activity_main.xml" value="0.20380434782608695" />
+        <entry key="..\:/project/Food app hilt/Food App/app/src/main/res/layout/activity_user.xml" value="0.20380434782608695" />
+        <entry key="..\:/project/Food app hilt/Food App/app/src/main/res/layout/fragment_detail_view.xml" value="0.20969202898550723" />
+        <entry key="..\:/project/Food app hilt/Food App/app/src/main/res/layout/fragment_list_food.xml" value="0.1983695652173913" />
+        <entry key="..\:/project/Food app hilt/Food App/app/src/main/res/layout/fragment_profile.xml" value="0.14947916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

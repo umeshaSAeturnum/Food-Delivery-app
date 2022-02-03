@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageview_height">120dp</dimen>
+    <dimen name="imageview_detail_height">280dp</dimen>
+    <dimen name="cardview_elevation">4dp</dimen>
+    <dimen name="cardview_corner_radius">15dp</dimen>
+    <dimen name="cardview_margin">11dp</dimen>
+    <dimen name="cardview_margin_cv">8dp</dimen>
+    <dimen name="cardview_margin_fl">8dp</dimen>
+    <dimen name="cardview_margin_oil">4dp</dimen>
+    <dimen name="cardview_marginVertical_oil">5dp</dimen>
+    <dimen name="author_text_height">30dp</dimen>
+    <dimen name="margin_right_item_cv">2dp</dimen>
+    <dimen name="margin_right_item_or">10dp</dimen>
+    <dimen name="frame_margin_bottom">10dp</dimen>
+    <dimen name="title_txt_size">18dp</dimen>
+    <dimen name="title_txt_size_detail">26dp</dimen>
+    <dimen name="description_txt_size">18dp</dimen>
+    <dimen name="txt_margin">18dp</dimen>
+    <dimen name="title_padding">8dp</dimen>
+    <dimen name="title_margin_bottom_detail">10dp</dimen>
+    <dimen name="title_margin">3dp</dimen>
+    <dimen name="foodname_font_cv">16dp</dimen>
+    <dimen name="foodprice_font_cv">15dp</dimen>
+    <dimen name="orderId_font_orl">12dp</dimen>
+    <dimen name="foodname_font_fv">16dp</dimen>
+    <dimen name="author_margin_left">10dp</dimen>
+    <dimen name="price_margin_top_cv">4dp</dimen>
+    <dimen name="author_det_font">20dp</dimen>
+    <dimen name="description_detail_margin_bottom">10dp</dimen>
+    <dimen name="content_detail_margin_top">16dp</dimen>
+    <dimen name="description_font_size">16dp</dimen>
+    <dimen name="title_margin_top_detail">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

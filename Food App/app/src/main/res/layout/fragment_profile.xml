@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.ProfileFragment"
+    android:layout_marginHorizontal="30dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/profile"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="349dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:outlineAmbientShadowColor="@color/ash_100"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider2">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_pr"
+                android:background = "@drawable/edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp"
+            android:background="?android:attr/listDivider"
+            android:outlineAmbientShadowColor="@color/ash_100" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/phone_pr"
+                android:background="@drawable/edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp"
+            android:background="?android:attr/listDivider"
+            android:outlineAmbientShadowColor="@color/ash_100" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/address_pr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/edit_text"
+                android:maxLines="4"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp"
+            android:background="?android:attr/listDivider"
+            android:outlineAmbientShadowColor="@color/ash_100" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_pr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="25dp"
+            android:background="?android:attr/listDivider"
+            android:outlineAmbientShadowColor="@color/ash_100" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUpdate_l"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/button_style"
+            android:backgroundTint="@color/green_500"
+            android:textColor="@color/white"
+            android:text="@string/update"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogout_l"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/button_style"
+            android:backgroundTint="@color/yellow_200"
+            android:textColor="@color/white"
+            android:text="@string/logout"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

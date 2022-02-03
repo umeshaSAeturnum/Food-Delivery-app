@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Artisan</string>
+
+    <string name="profile">Profile</string>
+    <string name="cart">Shopping Cart</string>
+    <string name="category">Category</string>
+    <string name="orderList">My Orders</string>
+    <string name="log_msg">Login to your account</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone No</string>
+    <string name="address">Address</string>
+    <string name="confirmpw">Confirm Password</string>
+    <string name="noAcc">Don\'t have an account?</string>
+    <string name="signup">SignUp</string>
+    <string name="logout">Logout</string>
+    <string name="update">Update Profile</string>
+    <string name="addCart">Add to Cart</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="one">1</string>
+    <string name="zero">0</string>
+    <string name="basket">Your basket</string>
+    <string name="continue_cv">Continue Shopping</string>
+    <string name="checkout">Checkout</string>
+    <string name="orderSummary">Order Summary</string>
+    <string name="orderDetail">Order Details</string>
+    <string name="deliveryDetail">Delivery Detail</string>
+    <string name="signup_msg">Let\'s Get Started!</string>
+    <string name="signup_qoute">Create an account at Artisan to gell all Features </string>
+    <string name="ordernow">Order Now</string>
+    <string name="view">View</string>
+    <string name="pizza">Pizza</string>
+    <string name="beverage">Beverages</string>
+    <string name="appetizer">Appetizers</string>
+    <string name="dessert">Desserts</string>
+    <string name="recipient">Recipient Name</string>
+    <string name="recipientNo">Recipient Phone No</string>
+    <string name="recipientAddress">Recipient Address</string>
+    <string name="payment">Proceed to Payment</string>
+    <string name="orderId">Order ID:</string>
+    <string name="orderDate">Order Date:</string>
+    <string name="estTime">Estimated Time:</string>
+    <string name="total_orl">Total:</string>
+    <string name="status_orl">Status:</string>
+    <string name="address_orv">Delivery Info:</string>
+    <string name="price_orv">Total:</string>
+    <string name="items_orv">Ordered Items:</string>
+    <string name="profile_pr">Profile</string>
+    <string name="price_fd">Price per Portion:</string>
+    <string name="empty_cart">Sorry! Your cart is empty</string>
+    <string name="empty_order">Sorry! Currently, No orders for you</string>
+
+
+</resources>
